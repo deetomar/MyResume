@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact: Deepak Tomar</title>
+</head>
+<body>
+    <header>
+        <h1><u>Contact Me:</u></h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <form action="./index.html">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter your name" required>
+                    <br /><br />
+                    <label>Contact number:</label>
+                    <input type="tel" placeholder="Enter your contact number" required>
+                    <br /><br />
+                    <label>Email:</label>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <br /><br />
+                    <label>Are you from India?</label>
+                    <label for="India">
+                        <input type="radio" id="India" name="country" value="yes" required>Yes
+                    </label>
+                    <label for="notIndia">
+                        <input type="radio" id="notIndia" name="country" value="no" required>No
+                    </label>
+                    <br /><br />
+                    <label>Please select your continent:</label>
+                    <select name="continent" required>
+                        <option value="">--Please select--</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                    </select>
+                    <br /><br />
+                    <label>Select the skills that you require for your work:</label>
+                    <label for="skill1">
+                        <input type="checkbox" id="skill1" name="skill" value="HTML & CSS"> HTML & CSS
+                    </label>
+                    <label for="skill2">
+                        <input type="checkbox" id="skill2" name="skill" value="JavaScript"> JavaScript
+                    </label>
+                    <label for="skill3">
+                        <input type="checkbox" id="skill3" name="skill" value="Java"> Java
+                    </label>
+                    <label for="skill4">
+                        <input type="checkbox" id="skill4" name="skill" value="Mongo DB"> Mongo DB
+                    </label>
+                    <label for="skill5">
+                        <input type="checkbox" id="skill5" name="skill" value="Node JS"> Node JS
+                    </label>
+                    <label for="skill6">
+                        <input type="checkbox" id="skill6" name="skill" value="React"> React
+                    </label>
+                    <br /><br />
+                    <label>Message:</label>
+                    <br />
+                    <textarea rows="5" cols="50" placeholder="Please type your message here..." required></textarea>
+                    <br />
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <hr />
+    <footer>
+        <small>© Deepak Tomar. All rights reserved.</small>
+    </footer>
+</body>
+</html>
